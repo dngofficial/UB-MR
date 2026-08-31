@@ -11,6 +11,24 @@ public class PointCloudImporterWindow : EditorWindow
 {
     private string pcdFilePath = "";
     private Material pointMaterial;
+    private enum CoordinateMode
+    {
+        CurrentXZY,
+        RawXYZ,
+        XZNegY,
+        NegXZY
+
+    }
+    private CoordinateMode coordinateMode = CoordinateMode.CurrentXZY;
+
+    private enum AlignmentMode
+    {
+        None,
+        ServiceCenterLoopManual
+    }
+
+    private AlignmentMode alignmentMode = AlignmentMode.None;
+
 
     [MenuItem("UB-MR/Point Cloud Importer")]
     public static void ShowWindow()
@@ -54,6 +72,16 @@ public class PointCloudImporterWindow : EditorWindow
             pointMaterial,
             typeof(Material),
             false
+        );
+
+        coordinateMode = (CoordinateMode)EditorGUILayout.EnumPopup(
+            "Coordinate Mode",
+            coordinateMode
+        );
+
+        alignmentMode = (AlignmentMode)EditorGUILayout.EnumPopup(
+            "Alignment",
+            alignmentMode
         );
 
         EditorGUILayout.Space();
@@ -145,10 +173,33 @@ public class PointCloudImporterWindow : EditorWindow
                     )
                     {
                         // PCD -> Unity coordinate conversion
-                        points.Add(new Vector3(x, z, y));
+                        // points.Add(new Vector3(x, z, y));
+
+                        Vector3 point;
+                        switch (coordinateMode)
+                        {
+                            case CoordinateMode.RawXYZ:
+                                point = new Vector3(x, y, z);
+                                break;
+                            
+                            case CoordinateMode.XZNegY:
+                                point = new Vector3(x, z, -y);
+                                break;
+
+                            case CoordinateMode.NegXZY:
+                                point = new Vector3(-x, z, y);
+                                break;
+
+                            case CoordinateMode.CurrentXZY:
+                            default:
+                                point = new Vector3(x, z, y);
+                                break;
+                        }
+                        points.Add(point);
+                        }
                     }
                 }
-            }
+            
 
             if (!dataSectionFound)
             {
@@ -253,6 +304,45 @@ public class PointCloudImporterWindow : EditorWindow
 
         meshFilter.sharedMesh = mesh;
         meshRenderer.sharedMaterial = pointMaterial;
+
+        if (alignmentMode == AlignmentMode.ServiceCenterLoopManual)
+        {
+            if (coordinateMode != CoordinateMode.CurrentXZY)
+            {
+                Debug.LogWarning(
+                    "ServiceCenterLoopManual alignment was calibrated for CurrentXZY coordinates."
+                );
+            }
+
+            GameObject mapRootObject = GameObject.Find("ServiceCenterLoopMR");
+            if (mapRootObject == null)
+            {
+                Debug.LogWarning(
+                    "ServiceCenterLoopMR was not found. " +
+                    "Point cloud was created without alignment."
+                );
+            }
+            else
+            {
+                Transform pointCloudTransform = pointCloudObject.transform;
+                // Parent the point cloud under the RoadRunner map.
+                pointCloudTransform.SetParent(mapRootObject.transform, false);
+
+                // Manual registration transform established for
+                // pointcloud_uniform_50k using CurrentXZY coordinates.
+                pointCloudTransform.localPosition =
+                    new Vector3(2.858025f, -2.7407467f, 0f);
+                pointCloudTransform.localRotation =
+                    new Quaternion(
+                        0.0074047437f,
+                        -0.707068f,
+                        -0.707068f,
+                        0.0074047437f
+                    );
+
+                pointCloudTransform.localScale = Vector3.one;
+            }
+        }
 
         Undo.RegisterCreatedObjectUndo(
             pointCloudObject,
