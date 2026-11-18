@@ -151,3 +151,7 @@ chmod +x UB-MR.x86_64 # give execution permissions
   ```
 
 *For further assistance, please open an issue in the respective GitHub repository.*
+
+## Lincoln point cloud alignment
+
+The [Lincoln alignment guide](Integrations/LincolnAlignment/README.md) integrates the uploaded investigation, the external ROS2 one-shot map service, and the Service Center Loop scene's Unity reference publisher/parent-transform receiver. It documents setup, offline/ROS/Unity checks, bag replay and the remaining recording-map, calibration and geographic-frame confirmations. Physical Lincoln-to-Unity alignment remains unverified.

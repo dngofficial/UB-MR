@@ -1,0 +1,14 @@
+test_native_robot_state_publisher_applies_jake_rotation_and_final_scan_joint (test_ros_alignment.ROSAlignmentTests) ... [INFO] [1794986819.472765618] [jake_mount_test.localization_snapshot]: Ready. Confirm localization and stationary vehicle before calling ~/capture.
+ok
+test_service_qos_registration_snapshot_identity_and_one_shot (test_ros_alignment.ROSAlignmentTests) ... [INFO] [1794986819.600718068] [lincoln_test.map_alignment]: Ready. Call ~/align_once after initialized, stationary localization and both reference clouds arrive.
+[WARN] [1794986820.237492604] [lincoln_test.map_alignment]: Alignment refused: Vehicle is moving; stationary window reset
+[WARN] [1794986820.947198786] [lincoln_test.map_alignment]: Alignment refused: Cloud frame IDs disagree with the configured map frames
+[WARN] [1794986822.161034095] [lincoln_test.map_alignment]: Alignment refused: Already completed; restart the node to align another map pair
+ok
+test_snapshot_uses_full_mount_chain_and_exact_scan_time (test_ros_alignment.ROSAlignmentTests) ... [INFO] [1794986822.167567237] [lincoln_tf_test.localization_snapshot]: Ready. Confirm localization and stationary vehicle before calling ~/capture.
+ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 2.738s
+
+OK

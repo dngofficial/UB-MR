@@ -1,0 +1,12 @@
+test_service_qos_registration_snapshot_identity_and_one_shot (test_ros_alignment.ROSAlignmentTests) ... [INFO] [1794825342.123362121] [lincoln_test.map_alignment]: Ready. Call ~/align_once after initialized, stationary localization and both reference clouds arrive.
+[WARN] [1794825342.758922273] [lincoln_test.map_alignment]: Alignment refused: Vehicle is moving; stationary window reset
+[WARN] [1794825343.467888275] [lincoln_test.map_alignment]: Alignment refused: Cloud frame IDs disagree with the configured map frames
+[WARN] [1794825344.747470813] [lincoln_test.map_alignment]: Alignment refused: Already completed; restart the node to align another map pair
+ok
+test_snapshot_uses_full_mount_chain_and_exact_scan_time (test_ros_alignment.ROSAlignmentTests) ... [INFO] [1794825344.771722771] [lincoln_tf_test.localization_snapshot]: Ready. Confirm localization and stationary vehicle before calling ~/capture.
+ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 2.691s
+
+OK

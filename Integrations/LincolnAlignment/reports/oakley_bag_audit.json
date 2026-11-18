@@ -1,0 +1,419 @@
+{
+  "bag_dir": "/home/devanng/Downloads/UB-MR-2/UB-MR-2/Integrations/LincolnAlignment/.local-data/oakley_test_bag",
+  "database": "/home/devanng/Downloads/UB-MR-2/UB-MR-2/Integrations/LincolnAlignment/.local-data/oakley_test_bag/oakley_test_bag_0.db3",
+  "recorded_ros_schema": [
+    [
+      3,
+      "humble"
+    ]
+  ],
+  "duration_sec": 271.923528612,
+  "start_bag_timestamp_ns": 1757032450638772202,
+  "message_count_from_metadata": 856159,
+  "topic_message_counts": {
+    "/vehicle/propulsion/info": 0,
+    "/sensing/gnss/novatel/oem7/bestvel": 2719,
+    "/vehicle/wheel_positions": 13597,
+    "/vehicle/monitor/throttle": 0,
+    "/vehicle/fuel_level": 543,
+    "/vehicle/monitor/steer_rate_debug": 0,
+    "/sensing/gnss/novatel/oem7/gps": 13596,
+    "/vehicle/imu/data_raw": 27194,
+    "/vehicle/gpio/report": 0,
+    "/vehicle/gear/report": 2719,
+    "/vehicle/gps/fix": 269,
+    "/sensing/gnss/novatel/oem7/fix": 13597,
+    "/vehicle/gear/diag": 1357,
+    "/sensing/gnss/novatel/oem7/imu/data_raw": 67984,
+    "/vehicle/monitor/report": 0,
+    "/vehicle/throttle/report": 13576,
+    "/vehicle/eye_tracker": 0,
+    "/vehicle/ecu_info": 343,
+    "/vehicle/dbw_enabled": 5439,
+    "/vehicle/brake/diag": 1357,
+    "/sensing/lidar/top/pointcloud_raw_ex": 2720,
+    "/sensing/lidar/top/aw_points_ex": 2720,
+    "/sensing/gnss/novatel/oem7/bestgnsspos": 2719,
+    "/sensing/gnss/novatel/oem7/corrimu": 27195,
+    "/vehicle/tire_pressures": 543,
+    "/vehicle/driver_assist": 2719,
+    "/sensing/gnss/novatel/oem7/heading2": 272,
+    "/vehicle/brake/report": 13578,
+    "/vehicle/status/actuation_status": 40799,
+    "/sensing/gnss/novatel/oem7/terrastarinfo": 1,
+    "/sensing/gnss/novatel/oem7/imu/data": 27200,
+    "/sensing/gnss/novatel/oem7/insconfig": 1,
+    "/sensing/gnss/novatel/oem7/inspva": 13600,
+    "/sensing/gnss/novatel/oem7/odom_origin": 0,
+    "/rosout": 36,
+    "/vehicle/steering/offset": 564,
+    "/sensing/gnss/novatel/oem7/ppppos": 272,
+    "/sensing/lidar/top/velodyne_packets": 2720,
+    "/vehicle/status/steering_status": 27201,
+    "/sensing/gnss/novatel/oem7/insstdev": 272,
+    "/sensing/gnss/novatel/oem7/rxstatus": 0,
+    "/sensing/gnss/novatel/oem7/terrastarstatus": 1,
+    "/vehicle/status/gear_status": 2720,
+    "/vehicle/ulc/report": 1358,
+    "/vehicle/ulc/cmd": 0,
+    "/vehicle/throttle/diag": 1358,
+    "/vehicle/throttle/info": 27077,
+    "/can_bus_dbw/can_err": 0,
+    "/sensing/gnss/novatel/oem7/odom": 27199,
+    "/vehicle/system/report": 2728,
+    "/vehicle/traffic_sign_info": 0,
+    "/vehicle/wheel_speeds": 27203,
+    "/vehicle/steering/diag": 1326,
+    "/vehicle/steering/cmd": 0,
+    "/vehicle/status/velocity_status": 13600,
+    "/vehicle/steering/info": 0,
+    "/vehicle/status/hazard_lights_status": 2721,
+    "/sensing/gnss/novatel/oem7/time": 272,
+    "/diagnostics": 271,
+    "/can_bus_dbw/can_rx": 245437,
+    "/vehicle/gear/cmd": 0,
+    "/vehicle/vehicle_velocity": 13599,
+    "/sensing/gnss/novatel/oem7/inspvax": 272,
+    "/vehicle/battery_traction": 2715,
+    "/vehicle/brake/info": 13599,
+    "/version": 1,
+    "/sensing/gnss/novatel/oem7/bestgnssvel": 2720,
+    "/vehicle/remote/report": 0,
+    "/vehicle/status/turn_indicators_status": 2721,
+    "/can_bus_dbw/can_tx": 0,
+    "/parameter_events": 0,
+    "/sensing/lidar/top/aw_points": 2720,
+    "/vehicle/turn_signal/cmd": 0,
+    "/vehicle/drive_mode/report": 0,
+    "/vehicle/steering/report": 27198,
+    "/vehicle/misc/report": 5431,
+    "/events/write_split": 0,
+    "/sensing/gnss/novatel/oem7/bestpos": 2719,
+    "/sensing/gnss/novatel/oem7/oem7raw": 88255,
+    "/vehicle/battery": 2715,
+    "/vehicle/vin": 97,
+    "/vehicle/gps/time": 272,
+    "/vehicle/turn_signal/report": 2721,
+    "/sensing/gnss/novatel/oem7/bestutm": 272,
+    "/vehicle/status/control_mode": 5439
+  },
+  "scan_candidates": [
+    {
+      "topic": "/sensing/lidar/top/aw_points",
+      "frame_id": "velodyne_top",
+      "bag_offset_sec": 10.091258768,
+      "stamp_sec": 1757032460,
+      "stamp_nanosec": 631107072,
+      "finite_points": 45273,
+      "points_within_20m": 18653,
+      "points_within_30m": 31110,
+      "exact_xyz_match_to_uploaded_csv": true,
+      "recorded_channel_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ]
+    },
+    {
+      "topic": "/sensing/lidar/top/aw_points_ex",
+      "frame_id": "velodyne_top",
+      "bag_offset_sec": 10.09306755,
+      "stamp_sec": 1757032460,
+      "stamp_nanosec": 631107072,
+      "finite_points": 45273,
+      "points_within_20m": 18653,
+      "points_within_30m": 31110,
+      "exact_xyz_match_to_uploaded_csv": true,
+      "recorded_channel_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ]
+    },
+    {
+      "topic": "/sensing/lidar/top/pointcloud_raw_ex",
+      "frame_id": "velodyne_top",
+      "bag_offset_sec": 10.090340772,
+      "stamp_sec": 1757032460,
+      "stamp_nanosec": 631107072,
+      "finite_points": 45273,
+      "points_within_20m": 18653,
+      "points_within_30m": 31110,
+      "exact_xyz_match_to_uploaded_csv": true,
+      "recorded_channel_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ]
+    }
+  ],
+  "gnss_odometry_at_requested_offset": {
+    "topic": "/sensing/gnss/novatel/oem7/odom",
+    "frame_id": "odom",
+    "child_frame_id": "base_link",
+    "position": [
+      679909.8020339449,
+      4762427.873071529,
+      143.4469912117347
+    ],
+    "orientation_xyzw": [
+      0.009135384947876343,
+      0.0022224598855386385,
+      -0.7472031652553346,
+      0.6645291831412076
+    ],
+    "stamp_sec": 1757032460,
+    "stamp_nanosec": 647618632,
+    "is_verified_map_frame_body_pose": false
+  },
+  "gnss_fix_at_requested_offset": {
+    "topic": "/sensing/gnss/novatel/oem7/fix",
+    "frame_id": "gnss_link",
+    "latitude": 42.993243137132964,
+    "longitude": -78.79302490093541,
+    "altitude": 143.4469912117347
+  },
+  "motion_observations": {
+    "source": "/sensing/gnss/novatel/oem7/odom",
+    "observations": 27199,
+    "speed_threshold_mps": 0.1,
+    "first_reported_speed_above_threshold_bag_offset_sec": 199.225062505,
+    "inspection_window_bag_offset_sec": [
+      8.0,
+      12.0
+    ],
+    "window_max_reported_speed_mps": 0.004643342278084326,
+    "window_position_peak_to_peak_m": [
+      0.502449169405736,
+      0.5041893841698766,
+      0.819386325776577
+    ],
+    "physical_stationarity_independently_verified": false,
+    "note": "GNSS pose jumps coexist with low reported speed. Check vehicle signals and scan consistency; do not feed this odometry to the map alignment gate as localization."
+  },
+  "lidar_models_from_recorded_diagnostics": [
+    "VLP-32-C"
+  ],
+  "gnss_position_source_switch_logs": [
+    {
+      "bag_offset_sec": 7.468251848,
+      "node": "sensing.gnss.novatel.oem7.main",
+      "message": "GPSFix position source= INSPVA: 1 --> 0 at GPSTime[2382 434076120]"
+    },
+    {
+      "bag_offset_sec": 8.415913302,
+      "node": "sensing.gnss.novatel.oem7.main",
+      "message": "GPSFix position source= INSPVA: 0 --> 1 at GPSTime[2382 434077020]"
+    },
+    {
+      "bag_offset_sec": 26.467984846,
+      "node": "sensing.gnss.novatel.oem7.main",
+      "message": "GPSFix position source= INSPVA: 1 --> 0 at GPSTime[2382 434095120]"
+    },
+    {
+      "bag_offset_sec": 27.418137335,
+      "node": "sensing.gnss.novatel.oem7.main",
+      "message": "GPSFix position source= INSPVA: 0 --> 1 at GPSTime[2382 434096020]"
+    },
+    {
+      "bag_offset_sec": 43.468096867,
+      "node": "sensing.gnss.novatel.oem7.main",
+      "message": "GPSFix position source= INSPVA: 1 --> 0 at GPSTime[2382 434112120]"
+    },
+    {
+      "bag_offset_sec": 44.416272745,
+      "node": "sensing.gnss.novatel.oem7.main",
+      "message": "GPSFix position source= INSPVA: 0 --> 1 at GPSTime[2382 434113020]"
+    },
+    {
+      "bag_offset_sec": 65.467271452,
+      "node": "sensing.gnss.novatel.oem7.main",
+      "message": "GPSFix position source= INSPVA: 1 --> 0 at GPSTime[2382 434134120]"
+    },
+    {
+      "bag_offset_sec": 66.413311392,
+      "node": "sensing.gnss.novatel.oem7.main",
+      "message": "GPSFix position source= INSPVA: 0 --> 1 at GPSTime[2382 434135020]"
+    },
+    {
+      "bag_offset_sec": 84.466929737,
+      "node": "sensing.gnss.novatel.oem7.main",
+      "message": "GPSFix position source= INSPVA: 1 --> 0 at GPSTime[2382 434153120]"
+    },
+    {
+      "bag_offset_sec": 85.415128092,
+      "node": "sensing.gnss.novatel.oem7.main",
+      "message": "GPSFix position source= INSPVA: 0 --> 1 at GPSTime[2382 434154020]"
+    },
+    {
+      "bag_offset_sec": 100.468718213,
+      "node": "sensing.gnss.novatel.oem7.main",
+      "message": "GPSFix position source= INSPVA: 1 --> 0 at GPSTime[2382 434169120]"
+    },
+    {
+      "bag_offset_sec": 101.418726476,
+      "node": "sensing.gnss.novatel.oem7.main",
+      "message": "GPSFix position source= INSPVA: 0 --> 1 at GPSTime[2382 434170020]"
+    },
+    {
+      "bag_offset_sec": 118.466685715,
+      "node": "sensing.gnss.novatel.oem7.main",
+      "message": "GPSFix position source= INSPVA: 1 --> 0 at GPSTime[2382 434187120]"
+    },
+    {
+      "bag_offset_sec": 119.413165153,
+      "node": "sensing.gnss.novatel.oem7.main",
+      "message": "GPSFix position source= INSPVA: 0 --> 1 at GPSTime[2382 434188020]"
+    },
+    {
+      "bag_offset_sec": 138.465542699,
+      "node": "sensing.gnss.novatel.oem7.main",
+      "message": "GPSFix position source= INSPVA: 1 --> 0 at GPSTime[2382 434207120]"
+    },
+    {
+      "bag_offset_sec": 139.416648402,
+      "node": "sensing.gnss.novatel.oem7.main",
+      "message": "GPSFix position source= INSPVA: 0 --> 1 at GPSTime[2382 434208020]"
+    },
+    {
+      "bag_offset_sec": 154.465996654,
+      "node": "sensing.gnss.novatel.oem7.main",
+      "message": "GPSFix position source= INSPVA: 1 --> 0 at GPSTime[2382 434223120]"
+    },
+    {
+      "bag_offset_sec": 155.41131723,
+      "node": "sensing.gnss.novatel.oem7.main",
+      "message": "GPSFix position source= INSPVA: 0 --> 1 at GPSTime[2382 434224020]"
+    },
+    {
+      "bag_offset_sec": 161.465635569,
+      "node": "sensing.gnss.novatel.oem7.main",
+      "message": "GPSFix position source= INSPVA: 1 --> 0 at GPSTime[2382 434230120]"
+    },
+    {
+      "bag_offset_sec": 162.417642574,
+      "node": "sensing.gnss.novatel.oem7.main",
+      "message": "GPSFix position source= INSPVA: 0 --> 1 at GPSTime[2382 434231020]"
+    },
+    {
+      "bag_offset_sec": 182.465239384,
+      "node": "sensing.gnss.novatel.oem7.main",
+      "message": "GPSFix position source= INSPVA: 1 --> 0 at GPSTime[2382 434251120]"
+    },
+    {
+      "bag_offset_sec": 183.414647935,
+      "node": "sensing.gnss.novatel.oem7.main",
+      "message": "GPSFix position source= INSPVA: 0 --> 1 at GPSTime[2382 434252020]"
+    },
+    {
+      "bag_offset_sec": 195.464502123,
+      "node": "sensing.gnss.novatel.oem7.main",
+      "message": "GPSFix position source= INSPVA: 1 --> 0 at GPSTime[2382 434264120]"
+    },
+    {
+      "bag_offset_sec": 196.422083315,
+      "node": "sensing.gnss.novatel.oem7.main",
+      "message": "GPSFix position source= INSPVA: 0 --> 1 at GPSTime[2382 434265020]"
+    },
+    {
+      "bag_offset_sec": 199.466715075,
+      "node": "sensing.gnss.novatel.oem7.main",
+      "message": "GPSFix position source= INSPVA: 1 --> 0 at GPSTime[2382 434268120]"
+    },
+    {
+      "bag_offset_sec": 200.419311879,
+      "node": "sensing.gnss.novatel.oem7.main",
+      "message": "GPSFix position source= INSPVA: 0 --> 1 at GPSTime[2382 434269020]"
+    }
+  ],
+  "recorded_tf_topics": [],
+  "recorded_autoware_localization_topics": [],
+  "note": "No registration, frame relabeling, TF generation, or vehicle/Autoware launch was performed."
+}

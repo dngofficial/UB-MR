@@ -342,8 +342,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2da0c512f12947e489f739169773d7ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
 --- !u!114 &140856477 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3972190289448998007, guid: 01f7d97db6cadcd2ea549bb5b5716c0d, type: 3}
@@ -353,8 +353,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2da0c512f12947e489f739169773d7ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
 --- !u!114 &140856478 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8273397773270128845, guid: 01f7d97db6cadcd2ea549bb5b5716c0d, type: 3}
@@ -364,8 +364,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2da0c512f12947e489f739169773d7ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
 --- !u!1 &159421727
 GameObject:
   m_ObjectHideFlags: 0
@@ -385,7 +385,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &159421728
 Transform:
   m_ObjectHideFlags: 0
@@ -411,8 +411,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: af0c53b38c0f0b9318079b5ea61d16b7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   pcdFilePath: /home/jake/Downloads/Cloud-to-Cloud/Cloud-to-Cloud/pcd file/pointcloud_sample_50k.pcd
   maxPoints: 50000
   loadOnStart: 1
@@ -426,8 +426,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7527ee5c1e3a675079a9baf250fcf0a2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   pointMaterial: {fileID: 2100000, guid: 675ab83dc223d9200a8bf4b2244a7cc3, type: 2}
 --- !u!23 &159421731
 MeshRenderer:
@@ -527,8 +527,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 80302299e8e87f592a5d8cc8e85db6be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   map_root: {fileID: 219841357}
   origin_latitude: 42.9926180599693
   origin_longitude: -78.7924945927909
@@ -546,8 +546,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 127caff748cc4c4f8c01ad84f403052c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   freeFlyCamera: {fileID: 0}
   outputCamera: {fileID: 0}
   cameraName: Free Fly Cinemachine Camera
@@ -648,6 +648,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: ed96e924b70cdeffeacc9f74f1f4e0f5, type: 3}
       insertIndex: -1
       addedObject: {fileID: 841008227}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: ed96e924b70cdeffeacc9f74f1f4e0f5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1463109101}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: ed96e924b70cdeffeacc9f74f1f4e0f5, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1815259783}
@@ -762,8 +765,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_RenderShadows: 1
   m_RequiresDepthTextureOption: 2
   m_RequiresOpaqueTextureOption: 2
@@ -806,8 +809,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 72ece51f2901e7445ab60da3685d6b5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   ShowDebugText: 0
   ShowCameraFrustum: 1
   IgnoreTimeScale: 0
@@ -943,8 +946,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2da0c512f12947e489f739169773d7ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
 --- !u!114 &309569605 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3972190289448998007, guid: 01f7d97db6cadcd2ea549bb5b5716c0d, type: 3}
@@ -954,8 +957,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2da0c512f12947e489f739169773d7ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
 --- !u!114 &309569606 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8273397773270128845, guid: 01f7d97db6cadcd2ea549bb5b5716c0d, type: 3}
@@ -965,8 +968,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2da0c512f12947e489f739169773d7ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
 --- !u!1 &328723746
 GameObject:
   m_ObjectHideFlags: 0
@@ -996,8 +999,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_IgnoreReversedGraphics: 1
   m_BlockingObjects: 0
   m_BlockingMask:
@@ -1013,8 +1016,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_UiScaleMode: 0
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
@@ -1097,8 +1100,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ea9107b68a7d57690b600d1c81ede0ed, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   receiver: {fileID: 480256280}
   vehiclePrefab: {fileID: 1272740862478031309, guid: 45c97a6cdff58e4b2bad6ee93a49d6d2, type: 3}
   module: {fileID: 211020087}
@@ -1116,8 +1119,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: df534e1267e57986fbcd0258a4dcba48, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   listenPort: 12345
 --- !u!4 &480256281
 Transform:
@@ -1242,8 +1245,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_Version: 3
   m_UsePipelineSettings: 1
   m_AdditionalLightsShadowResolutionTier: 2
@@ -1483,8 +1486,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f65a40da479869defabfea6cc2f2845f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   pos_x: {fileID: 140856478}
   pos_y: {fileID: 140856477}
   pos_z: {fileID: 140856476}
@@ -1519,8 +1522,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 01614664b831546d2ae94a42149d80ac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_SendPointerHoverToParent: 1
   m_MoveRepeatDelay: 0.5
   m_MoveRepeatRate: 0.1
@@ -1550,8 +1553,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_FirstSelected: {fileID: 0}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
@@ -1597,8 +1600,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c8dd008eddf8fb24190dd13afed8fa97, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_SDF: {fileID: 8400000, guid: e8badb586960fbaffb5f4eb15974d33c, type: 2}
   m_Size: {x: 2.1, y: 2.4, z: 4.5}
   m_Resolution: 8
@@ -1617,6 +1620,78 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1943893339}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1463109100
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1463109101}
+  - component: {fileID: 1463109102}
+  - component: {fileID: 1463109103}
+  m_Layer: 0
+  m_Name: PointCloudRuntime
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1463109101
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1463109100}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.50520855, y: 0.49473667, z: 0.49473667, w: -0.50520855}
+  m_LocalPosition: {x: 292.54352, y: -4.1600256, z: 16.32306}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 219841357}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1463109102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1463109100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 054ce7828bd483bd8993f02707eddc72, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  pointCloudMeshFilter: {fileID: 841008229}
+  lidarObjectName: LiDAR_Top
+  radius: 30
+--- !u!114 &1463109103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1463109100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0bb547e7a4342dbbe15b73ab3964037, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  selector: {fileID: 1463109102}
+  module: {fileID: 211020087}
+  referenceTopic: /unity/reference_cloud_ros
+  candidateTopic: /map_alignment/candidate_transform
+  unityMapFrame: unity_map_ros
+  autowareMapFrame: map
+  publishIntervalSeconds: 1
+  autowareOriginX: 0
+  autowareOriginY: 0
+  autowareOriginZ: 0
+  displayOriginConfirmed: 0
+  applyAutomatically: 0
 --- !u!1 &1815259782
 GameObject:
   m_ObjectHideFlags: 0
@@ -1634,7 +1709,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1815259783
 Transform:
   m_ObjectHideFlags: 0
@@ -1834,8 +1909,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2552f720924cdd5aa9da8e6338f12abc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   sdfTextureSize: {x: 2.1, y: 2.4, z: 4.5}
   sdfTextureResolution: 8
   meshToSDF: {fileID: 1943893342}
@@ -1850,8 +1925,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c7f34bde58152514d8cf7e7b2e7cc7dc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_SDFTexture: {fileID: 1335542471}
   m_FloodMode: 0
   m_FloodFillQuality: 0

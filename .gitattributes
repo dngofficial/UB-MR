@@ -4,3 +4,6 @@
 *.geojson filter=lfs diff=lfs merge=lfs -text
 *.jpg filter=lfs diff=lfs merge=lfs -text
 *.png filter=lfs diff=lfs merge=lfs -text
+# Keep the supplied investigation samples byte-for-byte for provenance checks.
+Integrations/LincolnAlignment/current_alignment/*.csv -text
+Integrations/LincolnAlignment/current_alignment/*.pcd -text

@@ -1,0 +1,36 @@
+{
+  "projector_file": "/home/devanng/host_data/maps/ub_autonomous_proving_grounds/map_projector_info.yaml",
+  "projector": {
+    "projector_type": "local"
+  },
+  "lanelet_file": "/home/devanng/host_data/maps/ub_autonomous_proving_grounds/lanelet2_map.osm",
+  "lanelet_geographic_evidence": {
+    "node_count": 1583,
+    "local_coordinate_nodes": 1583,
+    "paired_geographic_anchor_nodes": 0,
+    "anchors": []
+  },
+  "opendrive": "/home/devanng/Downloads/UB-MR-2/UB-MR-2/Assets/UB_MR_Assets/RoadRunner/UB-Service-Center-Loop/ServiceCenterLoopMR.xodr",
+  "opendrive_sha256": "9b0dbbe64388ac0d019e6c5d69c2459c4c13e6692f93afb03c77ae2346560258",
+  "opendrive_projection": "+proj=tmerc +lat_0=42.9926180599693 +lon_0=-78.7924945927909 +k=1 +x_0=0 +y_0=0 +datum=WGS84 +units=m +vunits=m +no_defs",
+  "gnss_frame": "gnss_link",
+  "projection_of_gnss_fix_into_opendrive_xy_m": [
+    -43.246577279152,
+    69.441582827875
+  ],
+  "projection_of_utm_odometry_into_opendrive_xy_m": [
+    -43.246577279152,
+    69.441582826459
+  ],
+  "fix_vs_utm_projection_difference_m": 1.415997985532158e-09,
+  "map_and_opendrive_frame_relationship_confirmed": false,
+  "local_from_utm_confirmed": false,
+  "map_z": null,
+  "body_pose": null,
+  "remaining_evidence": [
+    "Verify this OpenDRIVE geographic reference describes the actual PCD local frame.",
+    "Verify axis orientation and independent geographic/static landmarks.",
+    "Establish the local vertical datum/origin and GNSS lever arm/orientation."
+  ],
+  "meaning": "XY geographic hypothesis only. No 6-DOF map pose, initialization seed, TF or Unity correction is produced."
+}

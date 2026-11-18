@@ -1,0 +1,15 @@
+{
+  "confirmed": false,
+  "frame_id": "map",
+  "body_frame": "base_link",
+  "position": [null, null, null],
+  "orientation_xyzw": [null, null, null, null],
+  "covariance": [
+    null, 0, 0, 0, 0, 0,
+    0, null, 0, 0, 0, 0,
+    0, 0, null, 0, 0, 0,
+    0, 0, 0, null, 0, 0,
+    0, 0, 0, 0, null, 0,
+    0, 0, 0, 0, 0, null
+  ]
+}

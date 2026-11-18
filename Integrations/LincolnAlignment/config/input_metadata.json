@@ -1,0 +1,112 @@
+{
+  "scan": {
+    "path": "current_alignment/lincoln_lidar_10s_30m.csv",
+    "frame_id": "velodyne_top",
+    "original_stamp_sec": 1757032460,
+    "original_stamp_nanosec": 631107072,
+    "topic": null,
+    "approximate_bag_offset_seconds": 10,
+    "stationary": "Low GNSS-reported speed near extraction time; GNSS position jumps are present. Physical stationarity requires vehicle/scan cross-check.",
+    "topic_candidates": [
+      "/sensing/lidar/top/aw_points",
+      "/sensing/lidar/top/aw_points_ex",
+      "/sensing/lidar/top/pointcloud_raw_ex"
+    ],
+    "recommended_replay_topic": "/sensing/lidar/top/aw_points",
+    "xyz_match": "Uploaded CSV equals the 30m spherical crop of the first scan after a 10s bag offset on all three candidates; extraction topic is not uniquely identifiable."
+  },
+  "reference": {
+    "path": "current_alignment/pointcloud_uniform_50k.pcd",
+    "source": "Unity reference sample per Jake's README",
+    "frame_id": null,
+    "units": "metres per Jake's investigation",
+    "unity_import_transform": {
+      "verified_against_saved_scene": "Assets/UB_MR/Modules/UB-Service-Center-Loop/UB-Service-Center-Loop.unity",
+      "selected_object": "PointCloud_REFERENCE_MANUAL",
+      "selected_mesh": "Assets/UB_MR/PointClouds/Imported/pointcloud_uniform_50k.asset",
+      "pcd_to_mesh_axes": "(x,y,z) -> (x,z,y)",
+      "local_position": [
+        2.858025,
+        -2.7407467,
+        0.0
+      ],
+      "local_orientation_xyzw": [
+        0.0074047437,
+        -0.707068,
+        -0.707068,
+        0.0074047437
+      ],
+      "local_scale": [
+        1,
+        1,
+        1
+      ],
+      "parent": "ServiceCenterLoopMR",
+      "note": "Existing manual placement; physical cloud-to-FBX and Autoware relationships remain unverified. Parent/world transforms are applied at runtime."
+    },
+    "autoware_map_transform": null,
+    "unity_publication": {
+      "topic": "/unity/reference_cloud_ros",
+      "frame_id": "unity_map_ros",
+      "coordinates": "Selected mesh TransformPoint through all scene parents, then (world.z,-world.x,world.y)",
+      "snapshot": "Frozen once per Play session; header stamp identifies that snapshot, not a ROS bag measurement."
+    }
+  },
+  "lidar_to_base_link_extrinsic": null,
+  "autoware_version": {
+    "reference_dockerfile_autoware_tag": "0.45.1",
+    "installed_image": "ubcavas/autoware-lincoln:20260303.0",
+    "recording_stack_version_confirmed": false
+  },
+  "initial_pose_in_autoware_map": null,
+  "bag": {
+    "archive": "/home/devanng/Downloads/oakley_test_bag-selected.zip",
+    "extracted_directory": "/home/devanng/Downloads/UB-MR-2/UB-MR-2/Integrations/LincolnAlignment/.local-data/oakley_test_bag",
+    "recorded_tf_topics": [],
+    "recorded_autoware_localization_topics": []
+  },
+  "calibration_candidates_file": "config/calibration_candidates.json",
+  "calibration_status": {
+    "selected_runtime_profile": null,
+    "confirmed_for_bag": false,
+    "jake_reported_base_to_sensor_kit": {
+      "xyz_m": [
+        0.9,
+        0.0,
+        2.0
+      ],
+      "rpy_rad": [
+        -0.001,
+        0.015,
+        -0.0364
+      ]
+    },
+    "jake_reported_missing_link": "velodyne_top_base_link -> velodyne_top",
+    "installed_description_final_joint": {
+      "xyz_m": [
+        0.0,
+        0.0,
+        0.06611
+      ],
+      "rpy_rad": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "model": "VLS-128"
+    },
+    "recorded_diagnostic_model": "VLP-32-C",
+    "note": "Installed VLS-128 final joint is not established for the recorded VLP-32-C. Earlier mount-only metadata omitted that final joint; no full recording extrinsic is selected."
+  },
+  "local_map_georeference_status": {
+    "confirmed": false,
+    "lanelet_geographic_anchor_count": 0,
+    "candidate_origin_source": "/home/devanng/Downloads/UB-MR-2/UB-MR-2/Assets/UB_MR_Assets/RoadRunner/UB-Service-Center-Loop/ServiceCenterLoopMR.xodr",
+    "candidate_gnss_xy_m": [
+      -43.246577279152,
+      69.441582827875
+    ],
+    "map_z": null,
+    "note": "OpenDRIVE projection hypothesis only; relation to this PCD frame and the sensor/body pose remains unverified."
+  }
+}

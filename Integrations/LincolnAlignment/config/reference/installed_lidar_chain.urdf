@@ -1,0 +1,21 @@
+<robot name="installed_lidar_chain_reference">
+  <link name="base_link" />
+  <link name="sensor_kit_base_link" />
+  <link name="velodyne_top" />
+  <link name="velodyne_top_base_link" />
+  <joint name="sensor_kit_base_link_joint" type="fixed">
+    <origin rpy="0.0 0.0 0.0" xyz="1.24 0.0 1.93" />
+    <parent link="base_link" />
+    <child link="sensor_kit_base_link" />
+  </joint>
+  <joint name="velodyne_top_base_mount_joint" type="fixed">
+    <origin rpy="0.0              0.0              0.0" xyz="0.0              0.0              0.0" />
+    <parent link="sensor_kit_base_link" />
+    <child link="velodyne_top_base_link" />
+  </joint>
+  <joint name="velodyne_top_base_scan_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0 0 0.06611" />
+    <parent link="velodyne_top_base_link" />
+    <child link="velodyne_top" />
+  </joint>
+</robot>

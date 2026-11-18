@@ -1,0 +1,22 @@
+{
+  "path": "/home/devanng/host_data/ub_hdmap/pointcloud_map.pcd",
+  "points": 8026472,
+  "bounds_min": [
+    79478.477,
+    62269.801,
+    112.05682
+  ],
+  "bounds_max": [
+    80008.82,
+    62575.379,
+    163.39424
+  ],
+  "hypothesis_center": [
+    79909.802034,
+    62427.873072,
+    143.446991
+  ],
+  "points_within_35m": 443845,
+  "center_confirmed": false,
+  "note": "Center is a coordinate-conversion hypothesis, not a localized base_link pose. No registration or TF was produced."
+}

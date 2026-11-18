@@ -39,6 +39,20 @@ namespace CAVAS.UB_MR
         public Vector3 CurrentMapRotationEuler => this.currentMapRotationEuler;
         public bool HasMapRotationState => this.hasMapRotationState;
 
+        // Keep the map controls in sync, otherwise MapUpdate would undo a ROS alignment
+        // on the following frame. The environment and imported cloud share map_root.
+        public void SetMapPoseFromAlignment(Vector3 position, Quaternion rotation)
+        {
+            UpdateMap(position, rotation);
+            currentMapRotationEuler = rotation.eulerAngles;
+            hasMapRotationState = true;
+            if (mapPanel != null)
+            {
+                mapPanel.SetMapPosition(position);
+                mapPanel.SetMapRotation(currentMapRotationEuler);
+            }
+        }
+
         void Awake()
         {
             InitializeMapRotationState();

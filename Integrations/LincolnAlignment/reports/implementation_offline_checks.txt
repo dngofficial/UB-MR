@@ -1,0 +1,96 @@
+{
+  "scene": "Assets/UB_MR/Modules/UB-Service-Center-Loop/UB-Service-Center-Loop.unity",
+  "selected_object": "PointCloud_REFERENCE_MANUAL",
+  "selected_mesh": {
+    "asset": "Assets/UB_MR/PointClouds/Imported/pointcloud_uniform_50k.asset",
+    "guid": "3c5d04493e3eb9287a74bdddb977c203",
+    "points": 49950,
+    "best_matching_import_mode": "CurrentXZY",
+    "max_coordinate_difference_m": 4.9999999873762135e-06,
+    "assigned_to_selector": true
+  },
+  "cloud_transform_relative_to_parent": {
+    "m_LocalPosition": {
+      "x": 2.858025,
+      "y": -2.7407467,
+      "z": 0.0
+    },
+    "m_LocalRotation": {
+      "x": 0.0074047437,
+      "y": -0.707068,
+      "z": -0.707068,
+      "w": 0.0074047437
+    },
+    "m_LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "parent_file_id": "219841357"
+  },
+  "mesh_variants": [
+    {
+      "asset": "Assets/UB_MR/PointClouds/Imported/pointcloud_uniform_50k 1.asset",
+      "guid": "74fb806609e272279b8186513c13d793",
+      "points": 49950,
+      "best_matching_import_mode": "CurrentXZY",
+      "max_coordinate_difference_m": 4.9999999873762135e-06,
+      "assigned_to_selector": false
+    },
+    {
+      "asset": "Assets/UB_MR/PointClouds/Imported/pointcloud_uniform_50k 2.asset",
+      "guid": "0cf9b386f6ea6605386959c1e18f76c0",
+      "points": 49950,
+      "best_matching_import_mode": "RawXYZ",
+      "max_coordinate_difference_m": 4.9999999873762135e-06,
+      "assigned_to_selector": false
+    },
+    {
+      "asset": "Assets/UB_MR/PointClouds/Imported/pointcloud_uniform_50k.asset",
+      "guid": "3c5d04493e3eb9287a74bdddb977c203",
+      "points": 49950,
+      "best_matching_import_mode": "CurrentXZY",
+      "max_coordinate_difference_m": 4.9999999873762135e-06,
+      "assigned_to_selector": true
+    }
+  ],
+  "source_pcd_sha256": "9aaf4b8df8bfcb9173078642b9fdadccd7c55952a355758a6576020ff3723583",
+  "published_frame": "unity_map_ros",
+  "published_coordinate_rule": "mesh local -> TransformPoint (all parents) -> (world.z, -world.x, world.y)",
+  "physical_map_alignment_verified": false,
+  "notes": [
+    "Mesh identity/import mode verified; the original Autoware map is still absent.",
+    "Manual scene transform is an existing visual placement, not an Autoware calibration.",
+    "RawXYZ variants must not replace the XZY reference without reviewing axes/handedness."
+  ]
+}
+test_bad_layout_and_truncated_buffer (test_cloud_io.CloudIOTests) ... ok
+test_padded_organized_cloud_and_endianness_without_mutation (test_cloud_io.CloudIOTests) ... ok
+test_actual_pcd (test_data_io.InputTests) ... ok
+test_actual_scan_and_radius (test_data_io.InputTests) ... ok
+test_crop_uses_explicit_center_and_rejects_bad_radius (test_data_io.InputTests) ... ok
+test_invalid_covariance_and_quaternion (test_data_io.InputTests) ... ok
+test_reordered_pcd_fields_and_count (test_data_io.InputTests) ... ok
+test_unconfirmed_seed_refused (test_data_io.InputTests) ... ok
+test_valid_seed_and_wrong_frame (test_data_io.InputTests) ... ok
+test_covariance_and_quaternion_rejected (test_localization_gate.LocalizationGateTests) ... ok
+test_gap_backwards_and_duplicate_stamps_reset_dwell (test_localization_gate.LocalizationGateTests) ... ok
+test_motion_invalidates_previous_window (test_localization_gate.LocalizationGateTests) ... ok
+test_requires_continuous_dwell (test_localization_gate.LocalizationGateTests) ... ok
+test_stale_and_future_pose_rejected (test_localization_gate.LocalizationGateTests) ... ok
+test_stationary_pose_drift_resets_window_even_if_twist_is_zero (test_localization_gate.LocalizationGateTests) ... ok
+test_empty_overlap_and_planar_cloud_rejected (test_map_registration.RegistrationTests) ... /home/devanng/.local/lib/python3.10/site-packages/open3d/__init__.py:80: ImportWarning: Open3D was built with CUDA support, but no suitable CUDA devices found. If your system has CUDA devices, check your CUDA drivers and runtime.
+  warnings.warn(
+ok
+test_map_transform_with_large_origin (test_map_registration.RegistrationTests) ... ok
+test_refinement_limit_rejects (test_map_registration.RegistrationTests) ... ok
+test_reflection_rejected (test_map_registration.RigidTests) ... ok
+test_reject_invalid_quaternion (test_math3d.TransformTest) ... ok
+test_rotation_then_translation (test_math3d.TransformTest) ... ok
+test_service_qos_registration_snapshot_identity_and_one_shot (test_ros_alignment.ROSAlignmentTests) ... skipped 'Set RUN_ROS_INTEGRATION=1 in an isolated ROS_DOMAIN_ID to run DDS checks'
+test_snapshot_uses_full_mount_chain_and_exact_scan_time (test_ros_alignment.ROSAlignmentTests) ... skipped 'Set RUN_ROS_INTEGRATION=1 in an isolated ROS_DOMAIN_ID to run DDS checks'
+
+----------------------------------------------------------------------
+Ran 23 tests in 1.406s
+
+OK (skipped=2)

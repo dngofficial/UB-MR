@@ -1,0 +1,14 @@
+{
+  "confirmed": false,
+  "autoware_frame": "map",
+  "unity_ros_frame": "unity_map_ros",
+  "body_frame": "base_link",
+  "initial_autoware_from_unity_ros": null,
+  "registration": {
+    "radius": 30.0,
+    "min_fitness": 0.5,
+    "max_rmse": 0.5,
+    "max_refinement_translation": 5.0,
+    "max_refinement_angle_deg": 20.0
+  }
+}

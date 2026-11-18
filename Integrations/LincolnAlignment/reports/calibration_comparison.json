@@ -1,0 +1,159 @@
+{
+  "recorded_lidar_model_from_bag_diagnostics": "VLP-32-C",
+  "profiles": {
+    "jake_reported": {
+      "source": "Jake Slack message supplied by user on 2026-11-18; original file/revision and recording configuration not confirmed",
+      "confirmed_for_bag": false,
+      "combines_sources": false,
+      "final_joint_description_model": null,
+      "description_model_matches_bag_diagnostics": null,
+      "complete_scan_chain": false,
+      "reason": "Incomplete frame chain: missing link 'base_link' or 'velodyne_top'"
+    },
+    "installed_latest": {
+      "source": "Installed image ubcavas/autoware-lincoln:latest",
+      "confirmed_for_bag": false,
+      "combines_sources": false,
+      "final_joint_description_model": "VLS-128",
+      "description_model_matches_bag_diagnostics": false,
+      "complete_scan_chain": true,
+      "chain": [
+        "base_link",
+        "sensor_kit_base_link",
+        "velodyne_top_base_link",
+        "velodyne_top"
+      ],
+      "body_from_scan": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.24
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.9961099999999998
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sensor_origin_in_body_m": [
+        1.24,
+        0.0,
+        1.9961099999999998
+      ]
+    },
+    "installed_20260303": {
+      "source": "Installed image ubcavas/autoware-lincoln:20260303.0",
+      "confirmed_for_bag": false,
+      "combines_sources": false,
+      "final_joint_description_model": "VLS-128",
+      "description_model_matches_bag_diagnostics": false,
+      "complete_scan_chain": true,
+      "chain": [
+        "base_link",
+        "sensor_kit_base_link",
+        "velodyne_top_base_link",
+        "velodyne_top"
+      ],
+      "body_from_scan": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.24
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.9961099999999998
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sensor_origin_in_body_m": [
+        1.24,
+        0.0,
+        1.9961099999999998
+      ]
+    },
+    "jake_with_installed_scan_joint_hypothesis": {
+      "source": "Jake reported mount + final 0.06611m joint from the installed VLS-128 descriptions; mixed-source hypothesis only",
+      "confirmed_for_bag": false,
+      "combines_sources": true,
+      "final_joint_description_model": "VLS-128",
+      "description_model_matches_bag_diagnostics": false,
+      "complete_scan_chain": true,
+      "chain": [
+        "base_link",
+        "sensor_kit_base_link",
+        "velodyne_top_base_link",
+        "velodyne_top"
+      ],
+      "body_from_scan": [
+        [
+          0.9992251697721278,
+          0.03637695474656644,
+          0.015025886237704907,
+          0.9009933613391747
+        ],
+        [
+          -0.03638786842281298,
+          0.999337639333515,
+          0.0004534787331378203,
+          2.99794790477413e-05
+        ],
+        [
+          -0.01499943750632809,
+          -0.0009998873354614506,
+          0.9998870021656497,
+          2.066102529713171
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sensor_origin_in_body_m": [
+        0.9009933613391747,
+        2.99794790477413e-05,
+        2.066102529713171
+      ]
+    }
+  },
+  "real_scan_sensitivity": {
+    "points": 31110,
+    "median_point_displacement_m": 0.8493616926997072,
+    "p95_point_displacement_m": 1.3193423302661949,
+    "max_point_displacement_m": 1.463502999364408,
+    "sensor_origin_difference_m": 0.3461566930893142,
+    "relative_rotation_deg": 2.2560201558234576
+  },
+  "selected_runtime_profile": null,
+  "meaning": "Sensitivity comparison only. No candidate is confirmed for the recording and no TF or alignment is published."
+}

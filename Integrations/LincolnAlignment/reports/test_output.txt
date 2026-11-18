@@ -1,0 +1,20 @@
+test_actual_pcd (test_data_io.InputTests.test_actual_pcd) ... ok
+test_actual_scan_and_radius (test_data_io.InputTests.test_actual_scan_and_radius) ... ok
+test_crop_uses_explicit_center_and_rejects_bad_radius (test_data_io.InputTests.test_crop_uses_explicit_center_and_rejects_bad_radius) ... ok
+test_invalid_covariance_and_quaternion (test_data_io.InputTests.test_invalid_covariance_and_quaternion) ... ok
+test_reordered_pcd_fields_and_count (test_data_io.InputTests.test_reordered_pcd_fields_and_count) ... ok
+test_unconfirmed_seed_refused (test_data_io.InputTests.test_unconfirmed_seed_refused) ... ok
+test_valid_seed_and_wrong_frame (test_data_io.InputTests.test_valid_seed_and_wrong_frame) ... ok
+test_empty_overlap_and_planar_cloud_rejected (test_map_registration.RegistrationTests.test_empty_overlap_and_planar_cloud_rejected) ... /workspace/scratch/70c471d98784/o3d-test/lib/python3.12/site-packages/open3d/__init__.py:80: ImportWarning: Open3D was built with CUDA support, but no suitable CUDA devices found. If your system has CUDA devices, check your CUDA drivers and runtime.
+  warnings.warn(
+ok
+test_map_transform_with_large_origin (test_map_registration.RegistrationTests.test_map_transform_with_large_origin) ... ok
+test_refinement_limit_rejects (test_map_registration.RegistrationTests.test_refinement_limit_rejects) ... ok
+test_reflection_rejected (test_map_registration.RigidTests.test_reflection_rejected) ... ok
+test_reject_invalid_quaternion (test_math3d.TransformTest.test_reject_invalid_quaternion) ... ok
+test_rotation_then_translation (test_math3d.TransformTest.test_rotation_then_translation) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 3.777s
+
+OK

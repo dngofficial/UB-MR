@@ -1,0 +1,59 @@
+{
+  "scan": {
+    "file": "lincoln_lidar_10s_30m.csv",
+    "sha256": "e5c8e7901329b6ba26703808a18bcc64af9baca20d0f169756bacb09aada604e",
+    "points": 31110,
+    "finite_points": 31110,
+    "duplicate_xyz_rows": 9,
+    "xyz_min": [
+      -29.191415786743164,
+      -29.957595825195312,
+      -4.605059623718262
+    ],
+    "xyz_max": [
+      29.978511810302734,
+      29.836978912353516,
+      7.551304340362549
+    ],
+    "radius_from_file_origin_m": {
+      "20": 18653,
+      "30": 31110
+    },
+    "nn_spacing_m": {
+      "median": 0.06074171977162664,
+      "p90": 0.17038224112329578
+    }
+  },
+  "reference": {
+    "file": "pointcloud_uniform_50k.pcd",
+    "sha256": "9aaf4b8df8bfcb9173078642b9fdadccd7c55952a355758a6576020ff3723583",
+    "points": 49950,
+    "finite_points": 49950,
+    "duplicate_xyz_rows": 0,
+    "xyz_min": [
+      -484.34891,
+      -90.240669,
+      -7.9699359
+    ],
+    "xyz_max": [
+      71.801483,
+      228.75111,
+      12.188906
+    ],
+    "radius_from_file_origin_m": {
+      "20": 626,
+      "30": 1220
+    },
+    "nn_spacing_m": {
+      "median": 0.736241579346987,
+      "p90": 1.450366394775389
+    }
+  },
+  "alignment_computed": false,
+  "notes": [
+    "Reference is identified as a Unity sample by Jake; no Autoware map is included.",
+    "Original frame_id, exact timestamp, sensor extrinsic and map-to-Unity transform are missing.",
+    "Radius counts for the reference are around its file origin, not a verified vehicle location.",
+    "No common frame, initial vehicle pose, or registration is inferred from these numbers."
+  ]
+}

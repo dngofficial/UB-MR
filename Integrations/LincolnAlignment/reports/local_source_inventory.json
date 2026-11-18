@@ -1,0 +1,89 @@
+{
+  "working_unity_project": "/home/devanng/Downloads/UB-MR-2/UB-MR-2",
+  "reference_checkout": "/home/devanng/UB-DigitalTwin",
+  "reference_checkout_used_as_working_project": false,
+  "newly_mentioned_zip_matches_existing_csv_and_pcd": true,
+  "bag_archive": "/home/devanng/Downloads/oakley_test_bag-selected.zip",
+  "bag_audit": "reports/oakley_bag_audit.json",
+  "map_candidates": [
+    {
+      "path": "/home/devanng/host_data/maps/ub_autonomous_proving_grounds/pointcloud_map.pcd",
+      "role": "Local proving-ground map; simulated-map candidate",
+      "sha256": "391d4c801996a3c2b103e1a8d8c26bfc609c73cd08c1aa949d8e3de160f7fde4",
+      "header": [
+        "# .PCD v0.7 - Point Cloud Data file format",
+        "VERSION 0.7",
+        "FIELDS x y z intensity normal_x normal_y normal_z",
+        "SIZE 4 4 4 4 4 4 4",
+        "TYPE F F F F F F F",
+        "COUNT 1 1 1 1 1 1 1",
+        "WIDTH 12425186",
+        "HEIGHT 1",
+        "VIEWPOINT 0 0 0 1 0 0 0",
+        "POINTS 12425186",
+        "DATA binary"
+      ],
+      "projector_file": "/home/devanng/host_data/maps/ub_autonomous_proving_grounds/map_projector_info.yaml",
+      "projector_contents": "projector_type: local\n"
+    },
+    {
+      "path": "/home/devanng/host_data/ub_hdmap/pointcloud_map.pcd",
+      "role": "MGRS physical-map candidate; not confirmed as recording map",
+      "sha256": "9f019550cb259ad02fad000ecb86759aec1c32edd7fefbe31ef8c002d4ffe34d",
+      "header": [
+        "# .PCD v0.7 - Point Cloud Data file format",
+        "VERSION 0.7",
+        "FIELDS x y z",
+        "SIZE 4 4 4",
+        "TYPE F F F",
+        "COUNT 1 1 1",
+        "WIDTH 8026472",
+        "HEIGHT 1",
+        "VIEWPOINT 0 0 0 1 0 0 0",
+        "POINTS 8026472",
+        "DATA ascii"
+      ],
+      "projector_file": "/home/devanng/host_data/ub_hdmap/map_projector_info.yaml",
+      "projector_contents": "projector_type: MGRS\nmgrs_grid: 17TPH\nvertical_datum: WGS84\n"
+    }
+  ],
+  "home_reference_versioned_pcd_present": false,
+  "image_calibration": {
+    "confirmed_for_bag": false,
+    "source": "Installed images latest and 20260303.0; native expanded VLS-128 URDF",
+    "parent_frame": "base_link",
+    "child_frame": "velodyne_top",
+    "translation": [
+      1.24,
+      0.0,
+      1.99611
+    ],
+    "roll_pitch_yaw_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "chain": [
+      "base_link",
+      "sensor_kit_base_link",
+      "velodyne_top_base_link",
+      "velodyne_top"
+    ],
+    "note": "Complete installed-description chain includes 0.06611 m terminal joint. Recorded diagnostics identify VLP-32-C, so applicability to recording remains unconfirmed."
+  },
+  "reference_mr_pkg_bridge": {
+    "path": "/home/devanng/UB-DigitalTwin/UB-MR/submodules/mr_pkg/mr_pkg/autoware_localization.py",
+    "sha256": "44d368c7d1ff7025a9ab4882faf191fadf98a127ad7b5369c66a59cc427bb90a",
+    "behavior": "Subtracts modulo-100km UTM origin based on fixed lat/lon; flattens Z to 0 and labels output odom.",
+    "appropriate_for_local_proving_ground_map_confirmed": false
+  },
+  "installer_check": {
+    "command": "python3 /home/devanng/UB-DigitalTwin/scripts/install_ub_carla.py --version v1.1.0 --check",
+    "exit_code": 1,
+    "carla_archive_available": true,
+    "error": "Autoware maps v1.1.0 not found in public Drive folder. Expected v1.1.0.",
+    "downloads_performed": false
+  },
+  "confirmed_map_transform_computed": false,
+  "calibration_followup": "reports/JAKE_FOLLOWUP.md"
+}

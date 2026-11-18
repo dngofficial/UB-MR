@@ -1,0 +1,209 @@
+{
+  "selected_runtime_profile": null,
+  "profiles": {
+    "jake_reported": {
+      "source": "Jake Slack message supplied by user on 2026-11-18; original file/revision and recording configuration not confirmed",
+      "confirmed_for_bag": false,
+      "body_frame": "base_link",
+      "scan_frame": "velodyne_top",
+      "joints": [
+        {
+          "parent": "base_link",
+          "child": "sensor_kit_base_link",
+          "xyz_m": [
+            0.9,
+            0.0,
+            2.0
+          ],
+          "rpy_rad": [
+            -0.001,
+            0.015,
+            -0.0364
+          ]
+        },
+        {
+          "parent": "sensor_kit_base_link",
+          "child": "velodyne_top_base_link",
+          "xyz_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rpy_rad": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "unresolved": "velodyne_top_base_link -> velodyne_top was not provided by Jake",
+      "final_joint_description_model": null,
+      "description_model_matches_bag_diagnostics": null
+    },
+    "installed_latest": {
+      "source": "Installed image ubcavas/autoware-lincoln:latest",
+      "image_id": "sha256:2d2a548208ad4a4e1c8359a017739e2ed1dd8f5cf80a2daf69da75d9f668486a",
+      "confirmed_for_bag": false,
+      "body_frame": "base_link",
+      "scan_frame": "velodyne_top",
+      "joints": [
+        {
+          "parent": "base_link",
+          "child": "sensor_kit_base_link",
+          "xyz_m": [
+            1.24,
+            0.0,
+            1.93
+          ],
+          "rpy_rad": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "parent": "sensor_kit_base_link",
+          "child": "velodyne_top_base_link",
+          "xyz_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rpy_rad": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "parent": "velodyne_top_base_link",
+          "child": "velodyne_top",
+          "xyz_m": [
+            0.0,
+            0.0,
+            0.06611
+          ],
+          "rpy_rad": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "native_expanded_urdf_sha256": "c3c57f885a5a829153e0519110fd5b2dc1abea889e8e6ee034798af423a9d826",
+      "vls_xacro_sha256": "c3e9c60f72d8fc204b990967cb19b2f9d10f06440dc92c6655b000abf42d0858",
+      "final_joint_description_model": "VLS-128",
+      "description_model_matches_bag_diagnostics": false
+    },
+    "installed_20260303": {
+      "source": "Installed image ubcavas/autoware-lincoln:20260303.0",
+      "image_id": "sha256:63c53670d21306bddfe4736f2502c4480994cffbe8be18a2dd4386d9e610daef",
+      "confirmed_for_bag": false,
+      "body_frame": "base_link",
+      "scan_frame": "velodyne_top",
+      "joints": [
+        {
+          "parent": "base_link",
+          "child": "sensor_kit_base_link",
+          "xyz_m": [
+            1.24,
+            0.0,
+            1.93
+          ],
+          "rpy_rad": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "parent": "sensor_kit_base_link",
+          "child": "velodyne_top_base_link",
+          "xyz_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rpy_rad": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "parent": "velodyne_top_base_link",
+          "child": "velodyne_top",
+          "xyz_m": [
+            0.0,
+            0.0,
+            0.06611
+          ],
+          "rpy_rad": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "native_expanded_urdf_sha256": "4d399712eaa0c21c7b92a43d1f4fc33aa45d6572dd60b8c4ed897096367e5b7c",
+      "vls_xacro_sha256": "c3e9c60f72d8fc204b990967cb19b2f9d10f06440dc92c6655b000abf42d0858",
+      "final_joint_description_model": "VLS-128",
+      "description_model_matches_bag_diagnostics": false
+    },
+    "jake_with_installed_scan_joint_hypothesis": {
+      "source": "Jake reported mount + final 0.06611m joint from the installed VLS-128 descriptions; mixed-source hypothesis only",
+      "confirmed_for_bag": false,
+      "body_frame": "base_link",
+      "scan_frame": "velodyne_top",
+      "joints": [
+        {
+          "parent": "base_link",
+          "child": "sensor_kit_base_link",
+          "xyz_m": [
+            0.9,
+            0.0,
+            2.0
+          ],
+          "rpy_rad": [
+            -0.001,
+            0.015,
+            -0.0364
+          ]
+        },
+        {
+          "parent": "sensor_kit_base_link",
+          "child": "velodyne_top_base_link",
+          "xyz_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rpy_rad": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "parent": "velodyne_top_base_link",
+          "child": "velodyne_top",
+          "xyz_m": [
+            0.0,
+            0.0,
+            0.06611
+          ],
+          "rpy_rad": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "combines_sources": true,
+      "final_joint_description_model": "VLS-128",
+      "description_model_matches_bag_diagnostics": false
+    }
+  },
+  "recorded_lidar_model_from_bag_diagnostics": "VLP-32-C",
+  "recorded_cloud_frame": "velodyne_top"
+}
